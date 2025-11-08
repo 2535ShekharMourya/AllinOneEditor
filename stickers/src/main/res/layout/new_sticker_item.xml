@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pushtouch="http://schemas.android.com/apk/res-auto">
+    <ja.burhanrashid52.photoeditor.SingleFingerView
+        android:id="@+id/tiv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        pushtouch:image_width="200dp"
+        pushtouch:text_for_textview="@string/app_name"
+        pushtouch:image_height="150dp"
+        pushtouch:push_image="@drawable/ic_handle_scale_rotate"
+        pushtouch:delete_image="@drawable/ic_handle_delete"
+        pushtouch:push_image_width="40dp"
+        pushtouch:push_image_height="40dp"
+        pushtouch:delete_image_width="50dp"
+        pushtouch:delete_image_height="50dp"
+        pushtouch:centerInParent="true"
+        />
+</FrameLayout>

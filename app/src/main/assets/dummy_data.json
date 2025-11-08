@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "Images": [
+        {
+          "edge_image_id": "img3",
+          "accessType": "birthday Templates",
+          "image_url": "https://i.ibb.co/Fk15mP1P/hb1-resized-540x960.png",
+          "img_width": "1600",
+          "img_height": "900",
+          "coordinates": [
+            {
+              "width_in_px": 197,
+              "height_in_px": 197,
+              "top_in_px":  73,
+              "left_in_px": 295,
+              "type": "object"
+            },
+            {
+              "width_in_px": 197,
+              "height_in_px": 197,
+              "top_in_px": 291,
+              "left_in_px": 295,
+              "type": "object"
+            },
+
+            {
+              "width_in_px": 197,
+              "height_in_px": 197,
+              "top_in_px": 504,
+              "left_in_px": 295,
+              "type": "object"
+            },
+            {
+              "width_in_px": 197,
+              "height_in_px": 197,
+              "top_in_px": 266,
+              "left_in_px": 46,
+              "type": "object"
+            },
+            {
+              "width_in_px": 197,
+              "height_in_px": 197,
+              "top_in_px": 483,
+              "left_in_px": 46,
+              "type": "object"
+            },
+            {
+              "width_in_px": 197,
+              "height_in_px": 197,
+              "top_in_px": 695,
+              "left_in_px": 46,
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "edge_image_id": "img3",
+          "accessType": "wedding Templates",
+          "image_url": "https://i.ibb.co/v4q5xkXt/image.png",
+          "img_width": "1600",
+          "img_height": "900",
+          "coordinates": [
+            {
+              "width_in_px": 254,
+              "height_in_px": 254,
+              "top_in_px":  36,
+              "left_in_px": 45,
+              "type": "object"
+            },
+            {
+              "width_in_px": 229,
+              "height_in_px": 229,
+              "top_in_px": 251,
+              "left_in_px": 284,
+              "type": "object"
+            },
+
+            {
+              "width_in_px": 229,
+              "height_in_px": 229,
+              "top_in_px": 484,
+              "left_in_px": 270,
+              "type": "object"
+            },
+            {
+              "width_in_px": 229,
+              "height_in_px": 229,
+              "top_in_px": 719,
+              "left_in_px": 270,
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "edge_image_id": "img3",
+          "accessType": "wedding Templates",
+          "image_url":"https://dev-files2.brochill.app/2022/04/05/16/jQIXjjsnr.PNG",
+          "img_width": "1600",
+          "img_height": "900",
+          "coordinates": [
+            {
+              "width_in_px": 311,
+              "height_in_px": 339,
+              "top_in_px":  160,
+              "left_in_px": 116,
+              "type": "object"
+            }
+
+          ]
+        },
+        {
+          "edge_image_id": "img3",
+          "accessType": "wedding Templates",
+          "image_url": "https://i.ibb.co/vCWz7H1D/back1.png",
+          "img_width": "1600",
+          "img_height": "900",
+          "coordinates": [
+            {
+              "width_in_px": 212,
+              "height_in_px": 247,
+              "top_in_px":  106,
+              "left_in_px": 50,
+              "type": "object"
+            },
+            {
+              "width_in_px": 212,
+              "height_in_px": 247,
+              "top_in_px": 106,
+              "left_in_px": 284,
+              "type": "object"
+            },
+
+            {
+              "width_in_px": 212,
+              "height_in_px": 247,
+              "top_in_px": 388,
+              "left_in_px": 50,
+              "type": "object"
+            },
+            {
+              "width_in_px": 212,
+              "height_in_px": 247,
+              "top_in_px": 388,
+              "left_in_px": 281
+            }
+          ]
+        },
+        {
+          "edge_image_id": "img3",
+          "accessType": "wedding Templates",
+          "image_url": "https://i.ibb.co/r28xdPq4/Wedding-Template-03-resized-540x960.png",
+          "img_width": "1600",
+          "img_height": "900",
+          "coordinates": [
+            {
+              "width_in_px": 202,
+              "height_in_px": 192,
+              "top_in_px":  149,
+              "left_in_px": 22,
+              "type": "object"
+            },
+            {
+              "width_in_px": 202,
+              "height_in_px": 192,
+              "top_in_px": 149,
+              "left_in_px": 318,
+              "type": "object"
+            },
+            {
+              "width_in_px": 193,
+              "height_in_px": 184,
+              "top_in_px": 365,
+              "left_in_px": 173,
+              "type": "object"
+            },
+            {
+              "width_in_px": 190,
+              "height_in_px": 174,
+              "top_in_px": 538,
+              "left_in_px": 30,
+              "type": "object"
+            },
+            {
+              "width_in_px": 190,
+              "height_in_px": 174,
+              "top_in_px": 538,
+              "left_in_px": 324,
+              "type": "object"
+            }
+
+          ]
+        }
+
+
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@color/addUserBackcolor"/>
+
+    <!-- Plus icon centered -->
+    <item
+        android:drawable="@drawable/add_circle_240"
+        android:gravity="center"
+        android:width="24dp"
+        android:height="24dp"/>
+</layer-list>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button" parent="Widget.Material3.Button">
+        <item name="android:height">@dimen/_46sdp</item>
+        <item name="cornerRadius">@dimen/_12sdp</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style
+        name="LinearLayoutYellowStyle" parent="android:Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/_6sdp</item>
+        <item name="android:background">@drawable/bg_yellow_rounded</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+    </style>
+
+    <style
+        name="LinearLayoutGrayStyle" parent="android:Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/_6sdp</item>
+        <item name="android:background">@drawable/bg_gray_rounded</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+    </style>
+
+    <style
+        name="LinearLayoutEditYellowStyle" parent="android:Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="rippleColor"> @color/white</item>
+        <item name="android:layout_margin">@dimen/_16sdp</item>
+        <item name="android:background">@drawable/bg_yellow_rounded</item>
+        <item name="cornerRadius">@dimen/_60sdp</item>
+        <item name="android:padding">@dimen/_2sdp</item>
+    </style>
+
+    <style name="WhiteRippleStyle">
+        <item name="android:background">@drawable/white_ripple_effect</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

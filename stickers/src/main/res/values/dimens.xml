@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="search_title">5sp</dimen>
+    <dimen name="tag_title">14sp</dimen>
+    <dimen name="feed_main_title">16sp</dimen>
+    <dimen name="quiz_item_tag">14sp</dimen>
+    <dimen name="quiz_item_title">15sp</dimen>
+    <dimen name="feed_secondary_title">14sp</dimen>
+    <dimen name="tab_item_title">16sp</dimen>
+    <dimen name="item_offset">2dp</dimen>
+    <dimen name="profile_main">18sp</dimen>
+    <dimen name="profile_secondary">14sp</dimen>
+
+    <dimen name="bottom_navigation_text_size">10sp</dimen>
+    <dimen name="bottom_navigation_active_text_size">11sp</dimen>
+
+    <dimen name="collection_release">58dp</dimen>
+    <dimen name="collection_clicked">56dp</dimen>
+    <dimen name="esmall">10sp</dimen>
+    <dimen name="small">12sp</dimen>
+    <dimen name="body">14sp</dimen>
+    <dimen name="subheading">16sp</dimen>
+    <dimen name="heading">18sp</dimen>
+    <dimen name="title">24sp</dimen>
+    <dimen name="extra_small">10sp</dimen>
+    <dimen name="big_body">16sp</dimen>
+    <dimen name="jumbo">32sp</dimen>
+    <dimen name="display">40sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+
+
+
+    <dimen name="editor_size">35dp</dimen>
+    <dimen name="normal_margin">8dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+    <dimen name="top_tool_icon_width">50dp</dimen>
+</resources>
