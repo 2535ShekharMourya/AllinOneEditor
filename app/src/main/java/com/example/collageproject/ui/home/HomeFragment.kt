@@ -41,7 +41,7 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (NetworkUtils.isInternetAvailable(requireContext())){
-                homeViewModel.fetchCollections()
+                homeViewModel.fetchCollections(requireContext())
             }else{ showNOInternetDialog() }
         homeViewModel.collections.observe(viewLifecycleOwner) { collections ->
             handleCollectionsResource(collections)
@@ -132,7 +132,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun retryOperation() {
-        homeViewModel.fetchCollections()
+        homeViewModel.fetchCollections(requireContext())
     }
 
     override fun onDestroyView() {

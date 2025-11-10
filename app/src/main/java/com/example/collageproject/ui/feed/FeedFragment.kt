@@ -44,7 +44,7 @@ class FeedFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         if (NetworkUtils.isInternetAvailable(requireContext())){
-            feedViewModel.fetchFeeds()
+            feedViewModel.fetchFeeds(requireContext())
         }else{
             showNoInternetDialog()
         }
@@ -54,7 +54,7 @@ class FeedFragment : Fragment() {
             handleFeedsResource(resource)
         }
         // Initial data fetch
-        feedViewModel.fetchFeeds()
+        feedViewModel.fetchFeeds(requireContext())
     }
     private fun setupRecyclerView(view: View){
         viewPager = view.findViewById(R.id.feed_viewpager)
@@ -73,7 +73,7 @@ class FeedFragment : Fragment() {
     }
 
     private fun retryOperation() {
-        feedViewModel.fetchFeeds()
+        feedViewModel.fetchFeeds(requireContext())
     }
     private fun handleFeedsResource(resource: Resource<List<TemplateItem>?>) {
         when (resource) {

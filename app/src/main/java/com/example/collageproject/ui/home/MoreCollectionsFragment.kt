@@ -52,7 +52,7 @@ class MoreCollectionsFragment : Fragment(), TemplateClickListener {
         homeViewModel.collectionTemplates.observe(viewLifecycleOwner) { collectionTemplates ->
             handleCollectionTemplatesResource(collectionTemplates)
         }
-        homeViewModel.fetchCollectionTemplates(tabCollectionId?.collection_id)
+        homeViewModel.fetchCollectionTemplates(requireContext(),tabCollectionId?.collection_id)
     }
 
     private fun handleCollectionTemplatesResource(resource: Resource<CollectionTemplate>) {

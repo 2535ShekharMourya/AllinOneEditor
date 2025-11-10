@@ -23,6 +23,7 @@ class HomeRepository @Inject constructor(
             val response = apiService.getCollections()
             if (response.isSuccessful) {
                 response.body()?.let { collections ->
+                    Log.d("Response", "Collections: ${collections}")
                     "Resource.Success(collections): ${Resource.Success(collections).data?.data}".logMessage()
                     Resource.Success(collections)
                 } ?: Resource.Error("Empty response body")
@@ -42,6 +43,7 @@ class HomeRepository @Inject constructor(
             val response = apiService.getTemplatesFromCollection(collectionId)
             if (response.isSuccessful) {
                 response.body()?.let { collectionTemplates ->
+                    Log.d("Response", "CollectionTemplates: ${collectionTemplates}")
                     Resource.Success(collectionTemplates)
                 } ?: Resource.Error("Empty response body")
             } else {

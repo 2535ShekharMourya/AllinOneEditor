@@ -16,9 +16,12 @@ class FeedRepository @Inject constructor(
     // Using Resource sealed class
     suspend fun getFeeds(): Resource<List<TemplateItem>?> {
         return try {
+
             val response = apiService.getAllTemplate()
             if (response.isSuccessful) {
                 response.body()?.let { users ->
+
+                    Log.d("Response", "getFeeds: ${users}")
                     Resource.Success(users.data)
                 } ?: Resource.Error("Empty response body")
             } else {
