@@ -5,6 +5,10 @@
         android:icon="@drawable/ic_home_selector"
         android:title="Home" />
     <item
+        android:id="@+id/CollagesFragment"
+        android:icon="@drawable/icon_collage_selected"
+        android:title="Collage" />
+    <item
         android:id="@+id/feedFragment"
         android:icon="@drawable/baseline_feed_24"
         android:title="Feed" />

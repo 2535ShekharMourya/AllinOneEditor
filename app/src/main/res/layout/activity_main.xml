@@ -56,6 +56,34 @@
                 android:textSize="12sp" />
         </LinearLayout>
 
+        <!-- Home Tab -->
+        <LinearLayout
+            android:id="@+id/tab_collage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/icon_collage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_collage_unselected" />
+
+            <TextView
+                android:id="@+id/label_collage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collages"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+
         <!-- Feed Tab -->
         <LinearLayout
             android:id="@+id/tab_feed"

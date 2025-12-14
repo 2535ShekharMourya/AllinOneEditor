@@ -64,7 +64,7 @@ class HomePageFragment : Fragment() {
 
         binding.verticalRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.verticalRecyclerView.adapter = collectionList?.let { HomePageParentAdapter(it){collectionId ->
-            (parentFragment as? HomeFragment)?.switchToTab(collectionId)
+            (parentFragment as? CollageFragment)?.switchToTab(collectionId)
         } }
 
 

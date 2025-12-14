@@ -8,6 +8,12 @@ data class Feeds(
     val pagination: Pagination? = null,
     val success: Boolean? = null
 ) : Parcelable
+@Parcelize
+data class Dashboard(
+    val `data`: List<TemplateItem>? = null,
+    val pagination: Pagination? = null,
+    val success: Boolean? = null
+) : Parcelable
 
 @Parcelize
 data class Pagination(

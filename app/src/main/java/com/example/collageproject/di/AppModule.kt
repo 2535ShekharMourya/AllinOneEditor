@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 @InstallIn(SingletonComponent::class)
 object AppModule {
 //    // Retrofit Instance
-    private const val BASE_URL = ""
+    private const val BASE_URL = "https://collage-api.brochill.com/"
     @Provides
     fun provideApiService(): ApiService {
         return Retrofit.Builder()

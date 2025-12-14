@@ -2,61 +2,61 @@
   "success": true,
   "data": [
     {
-      "collection_id": "f93fb127641d4c8ead036f72d6844fdd",
+      "collection_id": "01",
       "title": "Rain",
       "type": "Rain",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1755753270/d5cj3wuoosh8ccu83mbi.jpg"
     },
     {
-      "collection_id": "b4b7fff25fe240058c794ee8cf64a583",
+      "collection_id": "02",
       "title": "Trees",
       "type": "Natural",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1755695746/tdeuk5fer15e9etmq97j.jpg"
     },
     {
-      "collection_id": "29c5374952874a1cbdb222423f45a2f1",
+      "collection_id": "03",
       "title": "All",
       "type": "AllCollection",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1754568115/sozacqsk5hikrzyp3wds.jpg"
     },
     {
-      "collection_id": "9ae07c8fcc82408cb7d1774f272f5d75",
+      "collection_id": "04",
       "title": "tests",
       "type": "Classic",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1754376226/Screenshot_2025-08-04_at_7.40.10_PM_2_hweajj.png"
     },
     {
-      "collection_id": "58eff81b0a8f4b249b63debacb6fcdf8",
+      "collection_id": "05",
       "title": "hills",
       "type": "Natural",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1754567416/fromxibozef0ts5js7eo.jpg"
     },
     {
-      "collection_id": "80fb82bffaa041e8bdfe8b1a357db1d0",
+      "collection_id": "06",
       "title": "mountains",
       "type": "Natural",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1754567288/vn1na8xmamh7q13l3oz4.jpg"
     },
     {
-      "collection_id": "9f09d4c0d8294c6b8919e26cd850951f",
+      "collection_id": "07",
       "title": "Nature",
       "type": "Natural",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1754566882/fhqhjf2qdlqanjhfwryc.jpg"
     },
     {
-      "collection_id": "e824b01af271460bbd5d13dc5a7a0249",
+      "collection_id": "08",
       "title": "Anniversary",
       "type": "Classic",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1753946901/anniversary_thumb_ylymoi.png"
     },
     {
-      "collection_id": "b2d4d68a740040d1bafa4b48a28b3025",
+      "collection_id": "09",
       "title": "Love",
       "type": "Classic",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1753946990/love_thumbnail_yqsxok.png"
     },
     {
-      "collection_id": "a888a4285b03471181591bfe86e6b29a",
+      "collection_id": "10",
       "title": "Friendship",
       "type": "classic",
       "thumb": "https://res.cloudinary.com/dabdob76w/image/upload/v1753946494/bestfriendthumb_itixkb.png"
